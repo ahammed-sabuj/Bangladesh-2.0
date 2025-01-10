@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+.nav-title{
+    font-family: "Fira Sans", serif; 
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 128px 20px 128px;
+}
+.nav-btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    width: 116px;
+    height: 52px;
+    margin: 0px 10px;
+    color: rgb(0, 106, 80);
+    font-size: 14.4px;
+    font-weight: 600;
+    line-height: 17.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* banner style */
+.banner{
+    width: 995px;
+    height: 440px;
+    display: flex;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-left: 120px;
+
+}
+.banner-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 100px;
+}
+.banner-description{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align:left;
+    margin-top: 10px;
+}
+.banner-btn{
+    border-radius: 6px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+.banner-image{
+    position: static;
+    width: 360px;
+    height: 400px;
+}
+.banner-col-1{
+    position: static;
+    width: 498px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
