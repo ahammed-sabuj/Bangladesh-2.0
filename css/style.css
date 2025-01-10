@@ -230,6 +230,61 @@ main{
     border-radius: 8px;
     border: none;
     background:rgb(255, 194, 57);
-    margin-left: 15px;
+    margin-left: 15px;  
+}
+
+/* section-3 style */
+.section-3{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-right: 140px;
+}
+.section-3-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-top: -40px;
+
+}
+.section-3-title{
+    padding-left: 15px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 20px top -20px; */
     
+
+}
+.section-3-last-p{
+    padding-left: 15px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 0;
+     
+}
+.img-quote{
+    width: 40px;
+    height: 40px;
+    padding-left: 14px;
+    padding-top: 15px;
 }
