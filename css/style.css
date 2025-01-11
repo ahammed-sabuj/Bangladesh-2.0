@@ -2,6 +2,7 @@
 /* font-family: "Fira Sans", serif; */
 body{
     margin-left: 120px;
+    margin-right: 120px;
 }
 .nav-title{
     font-family: "Fira Sans", serif; 
@@ -16,7 +17,6 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    /* padding: 20px 128px 20px 128px; */
     padding-right: 140px;
 }
 .nav-btn{
@@ -33,6 +33,7 @@ nav{
     letter-spacing: 0%;
     text-align: center;
     margin-top: 25px;
+    margin-right: -107px;
 }
 
 /* banner style */
@@ -240,7 +241,8 @@ main{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     margin-top: 40px;
-    margin-right: 140px;
+    margin-right: 20px;
+    
 }
 .section-3-description{
     color: rgba(14, 14, 14, 0.8);
@@ -288,4 +290,83 @@ main{
     height: 40px;
     padding-left: 14px;
     padding-top: 15px;
+}
+
+/* section-4 style */
+.section-4{ 
+    margin-right: 20px;
+}
+.section-4-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-4-box-inside{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+}
+.section-4-box-inside-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.section-4-btn{
+    margin-top: 0px;
+    border-left: 2px solid rgba(14, 14, 14, 0.15);
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.btn-4{
+    width: 140px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-4-1{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 25px;
+    background: rgb(255, 255, 255);
+    padding: 20px; 
+}
+.section-4-box-inside-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-4-box-inside-2{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
