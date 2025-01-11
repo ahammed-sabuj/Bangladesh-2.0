@@ -3,6 +3,7 @@
 body{
     margin-left: 120px;
     margin-right: 120px;
+    background-color: rgb(245, 245, 245);
 }
 .nav-title{
     font-family: "Fira Sans", serif; 
@@ -369,4 +370,111 @@ main{
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
+}
+/* section-5 style */
+.section-5-header{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-5-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news-1{
+    display: flex;
+    gap: 30px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-right: 20px;
+
+}
+.sattelite{
+    border-radius: 30px;
+    width: 350px;
+    height: 300px;
+    padding: 15px 15px;
+}
+.news-description{
+    margin-top: -15px;
+}
+.news-header{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.al-jazira{
+    margin-top: -20px;
+}
+.date-time{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news-update{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-5{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.news-2{
+    display: flex;
+    gap: 30px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+.news-description-2{
+    padding: 0px 20px;
+}
+
+.news-3{
+    display: flex;
+    gap: 30px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-right: 20px;
+    margin-top: 40px;
+
 }
